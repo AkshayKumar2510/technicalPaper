@@ -5,6 +5,8 @@
 A **firewall** is a software or firmware that prevents unauthorized access to a network. It inspects incoming
 and outgoing traffic using a set of rules to identify and block threats.
 
+![Image](./images/Firewall.png)
+
 Firewalls are used in both personal and enterprise settings, and many devices come with one built-in,
 including Mac, Windows, and Linux computers. They are widely considered an essential component of network
 security.
@@ -20,6 +22,8 @@ configured to protect the network and perform quick assessments to find any susp
 ### How does a firewall work?
 A firewall establishes a border between an external network and the network it guards. It is inserted inline across a network connection and inspects all packets entering and leaving the guarded network.
 As it inspects, it uses a set of pre-configured rules to distinguish between harmless and malicious packets.
+
+![Image](./images/what-is-firewall-1.png)
 
 The term 'packets' refers to pieces of data that are formatted for internet transfer. Packets contain the
 data itself, as well as information about the data, such as where it came from. Firewalls can use this
@@ -52,17 +56,15 @@ When categorizing by **filtering method**, the main types are:
 
 >- A **packet-filtering** firewall examines packets in isolation and does not know the packet's context.
 
->- A **stateful inspection** firewall examines network traffic to determine whether one packet is related to
-another packet.
+>- A **stateful inspection** firewall examines network traffic to determine whether one packet is related to another packet.
 
->- A **proxy firewall** (aka **application-level gateway**) inspects packets at the application layer of the Open
-Systems Interconnection (OSI) reference model.
+>- A **proxy firewall** (aka **application-level gateway**) inspects packets at the application layer of the Open Systems Interconnection (OSI) reference mode
 
->- A **Next Generation Firewall (NGFW)** uses a multilayered approach to integrate enterprise firewall
-capabilities with an intrusion prevention system (IPS) and application control.
+>- A **Next Generation Firewall (NGFW)** uses a multilayered approach to integrate enterprise firewall capabilities with an intrusion prevention system (IPS) and application control.
 
-Each type in the list examines traffic with higher level of context than the one before – ie, stateful
-has more context than packet-filtering.
+![typesOfFirewall](./images/types-of-firewall.png)
+
+Each type in the list examines traffic with higher level of context than the one before – ie, stateful has more context than packet-filtering.
 
 #### Packet-filtering firewalls
 When a packet passes through a packet-filtering firewall, its source and destination address, protocol and destination port number are checked. The packet is dropped – meaning not forwarded to its destination – if it does not comply with the firewall's rule set. 
@@ -138,6 +140,8 @@ The importance of using firewalls as a security system is obvious; however, fire
 - Firewalls cannot stop or prevent attackers with modems from dialing in to or out of the internal network.
 
 - Firewalls cannot secure the system which is already infected.
+
+![prosNcons](./images/security-firewall_types_desktop.jpg)
 
 Therefore, it is recommended to keep all Internet-enabled devices updated. This includes the latest operating systems, web browsers,
 applications, and other security software (such as anti-virus). Besides, the security of wireless routers should be another practice.
