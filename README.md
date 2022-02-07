@@ -155,6 +155,6 @@ This article was prepared on researching various sites available over the intern
 - https://www.cisco.com/c/en_in/products/security/firewalls/index.html
 - https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/
 - https://www.forcepoint.com/cyber-edu/firewall
-- [Image1] downloaded from (https://en.wikipedia.org/wiki/Firewall_(computing))
-- [Image2 & Image3] downloaded from (https://www.javatpoint.com/firewall)
+- Downloaded from [Image1](https://en.wikipedia.org/wiki/Firewall_(computing))
+- Downloaded from [Image2 & Image3](https://www.javatpoint.com/firewall)
 and many more.
