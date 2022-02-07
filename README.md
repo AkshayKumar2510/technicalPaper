@@ -5,7 +5,7 @@
 A **firewall** is a software or firmware that prevents unauthorized access to a network. It inspects incoming
 and outgoing traffic using a set of rules to identify and block threats.
 
-![Image](./images/Firewall.png)
+![Image1](./images/Firewall.png)
 
 Firewalls are used in both personal and enterprise settings, and many devices come with one built-in,
 including Mac, Windows, and Linux computers. They are widely considered an essential component of network
@@ -23,7 +23,7 @@ configured to protect the network and perform quick assessments to find any susp
 A firewall establishes a border between an external network and the network it guards. It is inserted inline across a network connection and inspects all packets entering and leaving the guarded network.
 As it inspects, it uses a set of pre-configured rules to distinguish between harmless and malicious packets.
 
-![Image](./images/what-is-firewall-1.png)
+![Image2](./images/what-is-firewall-2.png)
 
 The term 'packets' refers to pieces of data that are formatted for internet transfer. Packets contain the
 data itself, as well as information about the data, such as where it came from. Firewalls can use this
@@ -147,3 +147,14 @@ Therefore, it is recommended to keep all Internet-enabled devices updated. This 
 applications, and other security software (such as anti-virus). Besides, the security of wireless routers should be another practice.
 The process of protecting a router may include options such as repeatedly changing the router's name and password, reviewing security
 settings, and creating a guest network for visitors.
+
+#### References
+
+This article was prepared on researching various sites available over the internet-
+
+- https://www.cisco.com/c/en_in/products/security/firewalls/index.html
+- https://www.geeksforgeeks.org/introduction-of-firewall-in-computer-network/
+- https://www.forcepoint.com/cyber-edu/firewall
+- [Image1] downloaded from (https://en.wikipedia.org/wiki/Firewall_(computing))
+- [Image2 & Image3] downloaded from (https://www.javatpoint.com/firewall)
+and many more.
