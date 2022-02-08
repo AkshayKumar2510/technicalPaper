@@ -38,13 +38,13 @@ These characteristics may be represented differently at different levels of the 
 Different types of firewalls exist to read packets at different network levels.
 
 ### Types of firewalls
-There are mainly three types of firewalls, such as **software firewalls**, **hardware firewalls**, or **both**, depending on their structure.
+There are mainly three types of firewalls, such as [**software firewalls**](https://www.fortinet.com/resources/cyberglossary/hardware-firewalls-better-than-software), [**hardware firewalls**](https://www.fortinet.com/resources/cyberglossary/hardware-firewalls-better-than-software), or **both**, depending on their structure.
 
 Each type of firewall has different functionality but the same purpose. However, it is best practice to have **both** to achieve maximum possible protection.
 
-A **hardware firewall** is a physical device that attaches between a computer network and a gateway. For example- a broadband router. A hardware firewall is sometimes referred to as an **Appliance Firewall**.
+A **hardware firewall** is a physical device that attaches between a computer network and a gateway. For example- a broadband router. A hardware firewall is sometimes referred to as an [**Appliance Firewall**](https://en.wikipedia.org/wiki/Application_firewall).
 
-On the other hand, a **software firewall** is a simple program installed on a computer that works through port numbers and other installed software. This type of firewall is also called a **Host Firewall**.
+On the other hand, a **software firewall** is a simple program installed on a computer that works through port numbers and other installed software. This type of firewall is also called a [**Host Firewall**](https://support.payjunction.com/hc/en-us/articles/360050591213-What-is-a-Host-Based-Firewall-#:~:text=A%20host%2Dbased%20firewall%20is,been%20caught%20by%20network%20security.&text=Many%20popular%20Anti%2DVirus%20programs,a%20host%2Dbased%20firewall%20feature.).
 
 Firewalls are either categorized by the way they **filter data**, or by **the system they protect**.
 
@@ -67,6 +67,7 @@ When categorizing by **filtering method**, the main types are:
 Each type in the list examines traffic with higher level of context than the one before – ie, stateful has more context than packet-filtering.
 
 #### Packet-filtering firewalls
+
 When a packet passes through a packet-filtering firewall, its source and destination address, protocol and destination port number are checked. The packet is dropped – meaning not forwarded to its destination – if it does not comply with the firewall's rule set. 
 
 A packet-filtering firewall works mainly on the network layer of the OSI reference model, although the transport layer is used to obtain the source and destination port numbers. It examines each packet
@@ -82,7 +83,7 @@ This type maintains a table that keeps track of all open connections. When new p
 Although stateful inspection firewalls are quite effective, they can be vulnerable to denial-of-service(DoS) attacks. DoS attacks work by taking advantage of established connections that this type generally assumes are safe.
 
 #### Application layer and proxy firewalls
-This type may also be referred to as a proxy-based or reverse-proxy firewall. They provide application layer filtering and can examine the payload of a packet to distinguish valid requests from malicious code disguised as a valid request for data. As attacks against web servers became more common, it became apparent that there was a need for firewalls to protect networks from attacks at the application layer.
+This type may also be referred to as a **proxy-based** or **reverse-proxy** firewall. They provide application layer filtering and can examine the payload of a packet to distinguish valid requests from malicious code disguised as a valid request for data. As attacks against web servers became more common, it became apparent that there was a need for firewalls to protect networks from attacks at the application layer.
 Packet-filtering and stateful inspection firewalls cannot do this at the application layer.
 
 Since this type examines the payload's content, it gives security engineers more granular control over network traffic. For example, it can allow or deny a specific incoming Telnet command from a particular user, whereas other types can only control general incoming requests from a particular host.
