@@ -48,11 +48,7 @@ On the other hand, a **software firewall** is a simple program installed on a co
 
 Firewalls are either categorized by the way they **filter data**, or by **the system they protect**.
 
-When categorizing by what they protect, the two types are: **network-based**
->that guard entire networks and are often hardware
-
-and **host-based** firewalls.
->guard individual devices – known as hosts – and are often software.
+When categorizing by what they protect, the two types are: **network-based** that guard entire networks and are often hardware, and **host-based** firewalls which guard individual devices – known as hosts – and are often software.
 
 When categorizing by **filtering method**, the main types are:
 
