@@ -48,19 +48,21 @@ On the other hand, a **software firewall** is a simple program installed on a co
 
 Firewalls are either categorized by the way they **filter data**, or by **the system they protect**.
 
->When categorizing by what they protect, the two types are: **network-based** that guard entire networks and are often hardware
+When categorizing by what they protect, the two types are: **network-based**
+>that guard entire networks and are often hardware
 
->and **host-based**, firewalls guard individual devices – known as hosts – and are often software.
+and **host-based** firewalls.
+>guard individual devices – known as hosts – and are often software.
 
 When categorizing by **filtering method**, the main types are:
 
->- A **packet-filtering** firewall examines packets in isolation and does not know the packet's context.
+- A **packet-filtering** firewall examines packets in isolation and does not know the packet's context.
 
->- A **stateful inspection** firewall examines network traffic to determine whether one packet is related to another packet.
+- A **stateful inspection** firewall examines network traffic to determine whether one packet is related to another packet.
 
->- A **proxy firewall** (aka **application-level gateway**) inspects packets at the application layer of the Open Systems Interconnection (OSI) reference mode
+- A **proxy firewall** (aka **application-level gateway**) inspects packets at the application layer of the Open Systems Interconnection (OSI) reference mode
 
->- A **Next Generation Firewall (NGFW)** uses a multilayered approach to integrate enterprise firewall capabilities with an intrusion prevention system (IPS) and application control.
+- A **Next Generation Firewall (NGFW)** uses a multilayered approach to integrate enterprise firewall capabilities with an intrusion prevention system (IPS) and application control.
 
 ![typesOfFirewall](./images/types-of-firewall.png)
 
@@ -68,7 +70,7 @@ Each type in the list examines traffic with higher level of context than the one
 
 #### Packet-filtering firewalls
 
-When a packet passes through a packet-filtering firewall, its source and destination address, protocol and destination port number are checked. The packet is dropped – meaning not forwarded to its destination – if it does not comply with the firewall's rule set. 
+When a packet passes through a packet-filtering firewall, its source and destination address, protocol and destination port number are checked. The packet is dropped – meaning not forwarded to its destination – if it does not comply with the firewall's rule set.
 
 A packet-filtering firewall works mainly on the network layer of the OSI reference model, although the transport layer is used to obtain the source and destination port numbers. It examines each packet
 independently and does not know whether any given packet is part of an existing stream of traffic.
